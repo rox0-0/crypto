@@ -1,0 +1,268 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "_deps/googletest-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-_deps.googletest-build-Debug-fa1b18db30f420365ea4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/googletest-src"
+				},
+				{
+					"build" : "_deps/googletest-build/googletest",
+					"jsonFile" : "directory-_deps.googletest-build.googletest-Debug-36fb7f5d6efe4e92f785.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/_deps/googletest-src/googletest",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "rijndael",
+					"jsonFile" : "directory-rijndael-Debug-5d66ecd92a706caea934.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "rijndael",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "des",
+					"jsonFile" : "directory-des-Debug-ef7dd4e37fb74396ff92.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "des",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						9
+					]
+				},
+				{
+					"build" : "rsa",
+					"jsonFile" : "directory-rsa-Debug-5849bc29690202a7410e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "rsa",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						5
+					],
+					"name" : "crypto_shit",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						8
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "rijndael_lib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "crypto_des",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "crypto_des::@27b6b23ac477d0cb8c02",
+					"jsonFile" : "target-crypto_des-Debug-486ba1e7764a29bbb074.json",
+					"name" : "crypto_des",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "crypto_tests::@27b6b23ac477d0cb8c02",
+					"jsonFile" : "target-crypto_tests-Debug-310ffa238ff4abf0edc2.json",
+					"name" : "crypto_tests",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest-Debug-7c3aa45c6d0e5f0cf85d.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest_main-Debug-b03fdf10ef8ae5744fde.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "libcrypto_math::@08a362371ebe822ce102",
+					"jsonFile" : "target-libcrypto_math-Debug-0d43b95f27fa8cac9a6e.json",
+					"name" : "libcrypto_math",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "librsa::@08a362371ebe822ce102",
+					"jsonFile" : "target-librsa-Debug-22510008220f04e017c1.json",
+					"name" : "librsa",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "rijndael_lib::@a4afc15ad3bc44aa6c77",
+					"jsonFile" : "target-rijndael_lib-Debug-aee2e1c950af7f404fbf.json",
+					"name" : "rijndael_lib",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "rijndael_tests::@a4afc15ad3bc44aa6c77",
+					"jsonFile" : "target-rijndael_tests-Debug-366a4bc168ae881bb5cf.json",
+					"name" : "rijndael_tests",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "rsa_tests::@08a362371ebe822ce102",
+					"jsonFile" : "target-rsa_tests-Debug-5208860527fe2393ab14.json",
+					"name" : "rsa_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "run_tests::@27b6b23ac477d0cb8c02",
+					"jsonFile" : "target-run_tests-Debug-2c4ff89838616fa66d0c.json",
+					"name" : "run_tests",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/lausniko/CLionProjects/crypto_shit/cmake-build-debug",
+		"source" : "/mnt/c/Users/lausniko/CLionProjects/crypto_shit"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

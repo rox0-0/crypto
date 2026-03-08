@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/des_tests.dir/tests/test.cpp.o -o des_tests  liblibdes.a ../lib/libgtest.a ../lib/libgtest_main.a liblibfeistel.a ../lib/libgtest.a 

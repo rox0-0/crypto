@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibdes.a CMakeFiles/libdes.dir/src/des_deal.cpp.o CMakeFiles/libdes.dir/src/paddings.cpp.o CMakeFiles/libdes.dir/src/test_with_padding.cpp.o
+/usr/bin/ranlib liblibdes.a

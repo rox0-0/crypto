@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/crypto_shit_main.dir/main.cpp.o -o crypto_shit_main 

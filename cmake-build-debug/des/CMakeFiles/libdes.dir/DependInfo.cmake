@@ -1,0 +1,22 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/mnt/c/Users/lausniko/CLionProjects/crypto_shit/des/src/des_deal.cpp" "des/CMakeFiles/libdes.dir/src/des_deal.cpp.o" "gcc" "des/CMakeFiles/libdes.dir/src/des_deal.cpp.o.d"
+  "/mnt/c/Users/lausniko/CLionProjects/crypto_shit/des/src/paddings.cpp" "des/CMakeFiles/libdes.dir/src/paddings.cpp.o" "gcc" "des/CMakeFiles/libdes.dir/src/paddings.cpp.o.d"
+  "/mnt/c/Users/lausniko/CLionProjects/crypto_shit/des/src/test_with_padding.cpp" "des/CMakeFiles/libdes.dir/src/test_with_padding.cpp.o" "gcc" "des/CMakeFiles/libdes.dir/src/test_with_padding.cpp.o.d"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/mnt/c/Users/lausniko/CLionProjects/crypto_shit/cmake-build-debug/des/CMakeFiles/libfeistel.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

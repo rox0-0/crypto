@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/lausniko/CLionProjects/crypto_shit/cmake-build-debug/rijndael/rijndael_tests[1]_tests.cmake")
+  include("/mnt/c/Users/lausniko/CLionProjects/crypto_shit/cmake-build-debug/rijndael/rijndael_tests[1]_tests.cmake")
+else()
+  add_test(rijndael_tests_NOT_BUILT rijndael_tests_NOT_BUILT)
+endif()

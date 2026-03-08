@@ -1,0 +1,6 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /mnt/c/Users/lausniko/CLionProjects/crypto_shit -B /mnt/c/Users/lausniko/CLionProjects/crypto_shit/cmake-build-debug
+-- GTest not found, downloading...
+-- Using fetched GTest
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/lausniko/CLionProjects/crypto_shit/cmake-build-debug

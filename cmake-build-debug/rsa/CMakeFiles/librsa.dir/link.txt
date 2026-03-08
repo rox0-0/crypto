@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibrsa.a CMakeFiles/librsa.dir/src/rsa.cpp.o CMakeFiles/librsa.dir/src/rca_attacks.cpp.o CMakeFiles/librsa.dir/__/rijndael/src/rijndael.cpp.o CMakeFiles/librsa.dir/__/rijndael/tests/test_rijndael.cpp.o
+/usr/bin/ranlib liblibrsa.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblib3des.a CMakeFiles/lib3des.dir/src/des_deal.cpp.o
+/usr/bin/ranlib liblib3des.a

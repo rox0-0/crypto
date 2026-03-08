@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibdeal.a CMakeFiles/libdeal.dir/src/des_deal.cpp.o
+/usr/bin/ranlib liblibdeal.a
